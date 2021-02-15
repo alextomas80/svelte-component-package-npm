@@ -1,0 +1,24 @@
+{
+  "name": "@alextomas80/svelte-custom-button",
+  "version": "1.0.0",
+  "description": "Ejemplo básico de creación de componente Svelte y paquete en NPM",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "svelte",
+    "ejemplo"
+  ],
+  "author": "alextomas80 <lanceusp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.39.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.32.3"
+  }
+}
